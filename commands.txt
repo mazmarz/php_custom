@@ -1,0 +1,12 @@
+# First you need to create the repository on git.  You can't do this with "git"; eventually you can use the github api; simpler use the web page
+
+echo "# php_custom" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mazmarz/php_custom.git
+git push -u origin master
+
+
+# These command work perfectly and are actually on the website
+

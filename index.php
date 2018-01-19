@@ -19,8 +19,8 @@ if (!$result = $mysqli->query($sql)) {
 
 echo "<ul>\n";
 while ($row = $result->fetch_assoc()) {
-    echo "<li><a href='" . $_SERVER['SCRIPT_FILENAME'] . "?aid=" . $row['box_name'] . "'>\n";
-    echo $row['box_name'];
+    echo "<li><a>";
+    echo $row['one'];
     echo "</a></li>\n";
 }
 echo "</ul>\n";
