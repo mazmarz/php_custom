@@ -1,9 +1,0 @@
-echo "# php_custom" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/mazmarz/php_custom.git
-git push -u origin master
-
-
-These command work perfectly and are actually on the website
